@@ -16,9 +16,24 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
+      title: 'Lista Filial',
+      url: '/lista-filial',
       icon: 'list'
+    },
+    {
+      title: 'Lista Produto',
+      url: '/lista-produto',
+      icon: 'list'
+    },
+    {
+      title: 'Cadastro Produto',
+      url: '/cadastrodoproduto',
+      icon: 'add-circle-outline'
+    },
+    {
+      title: 'Cadastro Filial',
+      url: '/cadastroloja',
+      icon: 'add-circle-outline'
     }
   ];
 
