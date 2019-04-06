@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Filial } from 'src/app/model/filial';
 
 @Component({
   selector: 'app-cadastroloja',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cadastroloja.page.scss'],
 })
 export class CadastrolojaPage implements OnInit {
+  private filial:Filial;
 
   constructor() { }
 

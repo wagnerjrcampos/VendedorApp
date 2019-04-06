@@ -1,6 +1,6 @@
 <ion-app>
   <ion-split-pane>
-    <ion-menu>
+    <ion-menu *ngIf="router.url !== '/cadastro' && router.url !== '/login'">
       <ion-header>
         <ion-toolbar>
           <ion-title>Menu</ion-title>

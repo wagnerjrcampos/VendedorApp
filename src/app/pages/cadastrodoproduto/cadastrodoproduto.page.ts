@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Produto } from 'src/app/model/produto';
 
 @Component({
   selector: 'app-cadastrodoproduto',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cadastrodoproduto.page.scss'],
 })
 export class CadastrodoprodutoPage implements OnInit {
+  private produto:Produto;
 
   constructor() { }
 
