@@ -12,18 +12,35 @@
   <ion-card>
         <ion-item>
           <ion-label position="floating">Nome do produto</ion-label>
-          <ion-input></ion-input>
+          <ion-input type="text" [(ngModel)]="produto.nome" ></ion-input>
         </ion-item>
         <ion-item>
           <ion-label>Categoria do produto</ion-label>
-          <ion-select placeholder="Select One">
-            <ion-select-option value="f">Female</ion-select-option>
-            <ion-select-option value="m">Male</ion-select-option>
+          <ion-select placeholder="Select One" type="text" [(ngModel)]="produto.categoria">
+            <ion-select-option >Camisa com manga</ion-select-option>
+            <ion-select-option >Camisa sem manga</ion-select-option>
+            <ion-select-option >Camisa social</ion-select-option>
+            <ion-select-option >Bermuda</ion-select-option>
+            <ion-select-option >Calça</ion-select-option>
+            <ion-select-option >Vestido</ion-select-option>
+            <ion-select-option >Casaco</ion-select-option>
+            <ion-select-option >Saias</ion-select-option>
+            <ion-select-option >Roupas Infantil</ion-select-option>
+            <ion-select-option >Calçado</ion-select-option>
+            <ion-select-option >Calçado Infantil</ion-select-option>
+            <ion-select-option >Moda Praia</ion-select-option>
+            <ion-select-option >Moda Praia Infantil</ion-select-option>
+            <ion-select-option >Acessório</ion-select-option>
+            <ion-select-option >Perfume</ion-select-option>
+            <ion-select-option >Cosmético</ion-select-option>
+            <ion-select-option >Utilidades para o lar</ion-select-option>
+            <ion-select-option >Brinquedo</ion-select-option>
+            <ion-select-option >Outro</ion-select-option>
           </ion-select>
         </ion-item>
         <ion-item>
           <ion-label>Gênero do produto</ion-label>
-          <ion-select placeholder="Select One">
+          <ion-select placeholder="Select One" type="text" [(ngModel)]="produto.generoProduto">
             <ion-select-option value="f">Female</ion-select-option>
             <ion-select-option value="m">Male</ion-select-option>
             <ion-select-option value="U">Unisex</ion-select-option>
@@ -31,19 +48,19 @@
         </ion-item>
         <ion-item>
           <ion-label>Filial</ion-label>
-          <ion-select placeholder="Select One">
-            <ion-select-option value="">Nova Iguaçu</ion-select-option>
-            <ion-select-option value="">Campo grande</ion-select-option>
+          <ion-select placeholder="Select One" type="text" [(ngModel)]="produto.filial">
+            <ion-select-option >Nova Iguaçu</ion-select-option>
+            <ion-select-option>Campo grande</ion-select-option>
           </ion-select>
         </ion-item>
         <ion-item>
           <ion-label position="floating"  >Preço</ion-label>
-          <ion-input type="number"  value="" ></ion-input>
+          <ion-input type="text" [(ngModel)]="produto.preco"></ion-input>
         </ion-item>
   
   </ion-card>
   
-  <ion-button color="success" expand="block" routerLink="/login">Cadastrar</ion-button>
+  <ion-button color="success" expand="block"  (click)="registraProduto()">Cadastrar</ion-button>
   
   </ion-content>
   

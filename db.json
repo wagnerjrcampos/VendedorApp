@@ -9,5 +9,23 @@
       "id": 1
     }
   ],
-  "cadastroProduto": []
+  "cadastroProduto": [
+    {
+      "nome": "regata",
+      "categoria": "c",
+      "generoProduto": "m",
+      "preco": "15",
+      "id": 1
+    },
+    {
+      "nome": "blusa",
+      "categoria": "Blusa",
+      "generoProduto": "U",
+      "preco": "20",
+      "id": 2
+    }
+  ],
+  "cadastroFilial":[
+
+  ]
 }
