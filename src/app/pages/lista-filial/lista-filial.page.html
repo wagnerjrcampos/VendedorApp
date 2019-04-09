@@ -8,5 +8,12 @@
 </ion-header>
 
 <ion-content>
-  
+  <ion-card class="welcome-card" *ngFor="let f of filial" >
+    <!--<ion-img [src]="g.game.box.large"></ion-img>-->
+    <ion-card-header>
+      <ion-card-title>Nome: {{f.nome}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+    </ion-card-content>
+  </ion-card>
 </ion-content>

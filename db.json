@@ -11,21 +11,29 @@
   ],
   "cadastroProduto": [
     {
-      "nome": "regata",
-      "categoria": "c",
+      "nome": "Camisa",
+      "categoria": "Camisa com manga",
       "generoProduto": "m",
-      "preco": "15",
-      "id": 1
+      "filial": "Nova Iguaçu",
+      "preco": "R$ 20,00",
+      "id": 3
     },
     {
-      "nome": "blusa",
-      "categoria": "Blusa",
+      "nome": "Casaco",
+      "categoria": "Casaco",
       "generoProduto": "U",
-      "preco": "20",
-      "id": 2
+      "filial": "Nova Iguaçu",
+      "preco": "R$ 155,00",
+      "id": 4
+    },
+    {
+      "nome": "Bermuda",
+      "categoria": "Bermuda",
+      "generoProduto": "m",
+      "filial": "Nova Iguaçu",
+      "preco": "R$ 60,00",
+      "id": 5
     }
   ],
-  "cadastroFilial":[
-
-  ]
+  "cadastroFilial": []
 }

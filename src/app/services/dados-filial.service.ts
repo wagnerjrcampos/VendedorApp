@@ -4,7 +4,7 @@ import { HttpHeaders, HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 
-const URL_API = `http://localhost:3000/cadastroFilial`
+const URL_API = `http://10.69.136.52:3000/cadastroFilial`
 
 const httpOptions = {
   headers: new HttpHeaders({

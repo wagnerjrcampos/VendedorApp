@@ -17,13 +17,13 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'Lista Filial',
-      url: '/lista-filial',
-      icon: 'list'
-    },
-    {
       title: 'Lista Produto',
       url: '/lista-produto',
+      icon: 'list'
+    },
+        {
+      title: 'Lista Filial',
+      url: '/lista-filial',
       icon: 'list'
     },
     {

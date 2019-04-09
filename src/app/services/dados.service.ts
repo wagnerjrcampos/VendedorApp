@@ -5,7 +5,7 @@ import { HttpClient, HttpHeaders} from '@angular/common/http';
 import { catchError } from 'rxjs/operators';
 import { Vendedor } from '../model/vendedor';
 
-const URL_API = `http://localhost:3000/cadastro`;
+const URL_API = `http://10.69.136.52:3000/cadastro`;
 
 //Encaminha o cabeçalho da requisição
 const httpOptions = {
