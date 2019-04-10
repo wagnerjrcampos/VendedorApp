@@ -1,5 +1,6 @@
 export class Produto {
     id: number;
+    img: string;
     nomeProduto: string;
     categoria: string;
     categorias: string;

@@ -10,18 +10,18 @@
 
     <ion-item>
       <ion-label>Username</ion-label>
-      <ion-input type="text" value=""></ion-input>
+      <ion-input [(ngModel)]="form.email" type="text" value=""></ion-input>
     </ion-item>
 
     <ion-item>
       <ion-label>Password</ion-label>
-      <ion-input type="password" value=""></ion-input>
+      <ion-input [(ngModel)]="form.senha" type="password" value=""></ion-input>
     </ion-item>
     
      
   
   </ion-list>
-  <ion-button expand="block" color="success" routerLink="/home" size="small">sing In</ion-button> 
+  <ion-button expand="block" color="success" (click)="efetuarLogin()" size="small">sing In</ion-button> 
   </ion-card>
    
   <ion-button color="light" expand="block" routerLink="/cadastro">É novo aqui? Crie sua conta.</ion-button>
