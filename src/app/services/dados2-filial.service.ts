@@ -6,7 +6,7 @@ import { Http } from '@angular/http';
 })
 export class Dados2FilialService {
   
-  private URL_API:string = "http://10.69.136.52:3000";
+  private URL_API:string = "http://10.69.136.129:3000";
 
   constructor(private http: Http) { }
 

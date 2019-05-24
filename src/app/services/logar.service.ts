@@ -10,7 +10,7 @@ const httpOptions = {
 })
 export class LogarService {
 
-  private URL_API:string = "http://10.69.136.52:3000";
+  private URL_API:string = "http://10.69.136.129:3000";
   
   constructor(private http: HttpClient) { }
  
